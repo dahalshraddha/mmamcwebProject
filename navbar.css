@@ -1,0 +1,156 @@
+img.logo{
+    width:220px;
+    height:60px;
+
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color:beige;
+
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    margin-top: 1opx;
+    display: inline-block;
+    padding-left: 30px;
+    color: #cf2626;
+}
+.nav-links li a{
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 111, 208);
+}
+.nav-links li a:hover{
+    color:rgb(61, 15, 105);
+    background-color: rgba(13, 214, 147, 0.845);
+    border-radius:6px;
+}
+.btn-login{
+    width: 50px;
+    height: 30px;
+    color:blue;
+    border-radius: 10px;
+    border-style: none;
+    margin-top:10px;
+    margin-right: 1px;
+    margin-left:3px;
+}
+.btn-login:hover{
+    color:rgb(205, 255, 230);
+    background-color: rgba(185, 172, 197, 0.767);
+    cursor:pointer;
+
+}
+.main{
+    display:flex;
+    justify-content:space-evenly ;
+    background-color: rgb(60, 54, 243);
+
+}
+.main-image{
+
+    padding-top: 50px;
+    height:400px;
+    width:500px;
+}
+.main-text{
+    padding-top: 50px;
+    font-family: 'Mooli',sans-serif;
+}
+.big{
+    font-size: 65px;
+    color: aqua;
+}
+.small{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+.btn-gts{
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(106, 106, 0);
+    border-style: none;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: 'Mooli',sans-serif;
+}
+.client-area{
+    background-color: rgba(255, 235, 205, 0.525);
+    padding-bottom: 30px;
+
+}
+.client-logo-div{
+    display:flex;
+    padding-top:20px;
+    align-items:center;
+
+}
+
+.ourclients-div{
+    padding: top 20px;
+    padding-bottom:20px;
+    padding-left:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'mooli',sans-serif;
+    color:#cf2626;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.client-logo{
+    height: 17%;
+    width: 17%;
+    padding-left: 200px;
+
+}
+.logo-text{
+    align-items:center;
+    display:flex;
+    justify-content:space-between ;
+
+}
+.aboutus-div{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'mooli,sans-serif';
+    color: rgb(233, 133, 11);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.about-logo{
+    width: 50px;
+    height: 60px;
+    padding-left: 200px;
+    padding-right: 120pz;
+
+}
+.about-text{
+    padding-right: 120px;
+    font-family: 'mooli,sans-serif';
+    color: black;
+    line-height: 1.5;
+}
+footer{
+text-align: center;
+background-color: blue;
+color: aliceblue;
+}
